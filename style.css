@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.judul {
+    color: red;
+}
+
+.gambar {
+    border-radius: 20px;
+}
+
+.deskripsi {
+    font-size: 20px;
+}
+
+.panel {
+    color: gray;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.tabel-biodata {
+    border-color: gray;
+    border-collapse: collapse;   
+}
+
+td {
+    padding: 5px;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+ol {
+    list-style: upper-roman;
+    text-align: left;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a::before {
+    content: " - ";
+}
+
+a::after {
+    content: " - ";
+}
+
+a:hover {
+    color: red;
+    font-size: 20px;
+    transition-duration: 1s;
+}
